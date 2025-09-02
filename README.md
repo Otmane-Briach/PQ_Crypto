@@ -31,14 +31,6 @@ Protocolos soportados:
 
 ---
 
-## Uso rápido
-git clone https://github.com/Otmane-Briach/PQ_Crypto.git
-cd PQ_Crypto
-idf.py set-target esp32
-idf.py build flash monitor
-
----
-
 ## Seguridad y buenas prácticas
 - Generación segura de claves con el TRNG del ESP32
 - Rotación de claves efímeras tras N mensajes o T minutos
