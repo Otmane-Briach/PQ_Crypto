@@ -6,7 +6,6 @@ Este repositorio demuestra cómo aplicar criptografía post‑cuántica en un ES
 - Kyber para intercambio de claves (KEM)
 - Dilithium para firmas (autenticidad)
 
-**Arduino**: 
 Este proyecto está dirigido a todas las personas que quieren usar la plataforma Arduino y evitar trabajar con ESP-IDF. El código ya incluye todos los flags experimentales necesarios pre-configurados para que funcione en Arduino IDE simplemente descargando la biblioteca wolfSSL.
 
 
