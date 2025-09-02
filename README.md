@@ -36,24 +36,9 @@ idf.py build flash monitor
 
 ---
 
-## Estructura del repositorio
-/wifi_client   – Cliente TLS con wolfSSL
-/ble_server    – Servidor BLE que implementa fragmentación y cifrado PQC
-/common        – Implementaciones de Kyber, Dilithium, AEAD, fragmentación
-/tools         – Scripts de prueba y benchmarking
-
----
-
 ## Seguridad y buenas prácticas
 - Generación segura de claves con el TRNG del ESP32
 - Rotación de claves efímeras tras N mensajes o T minutos
 - Limpieza de memoria sensible (memset_s)
 - Uso de contextos seguros y aleatoriedad para nonces y cifrado AEAD
 
----
-
-## Posibles mejoras futuras
-- Medición de consumo energético total (Wi-Fi vs BLE)
-- Integración de certificados Dilithium en el handshake TLS
-- Soporte BLE tanto para periférico como central
-- Implementación de canal seguro end‑to‑end sobre BLE usando KEM de aplicación
