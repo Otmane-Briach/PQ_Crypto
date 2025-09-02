@@ -52,11 +52,6 @@ idf.py build flash monitor
 
 ---
 
-## Licencia
-Licencia MIT (o la que prefieras). Si integras wolfSSL, liboqs o PQClean, asegúrate de cumplir con sus licencias propias.
-
----
-
 ## Posibles mejoras futuras
 - Medición de consumo energético total (Wi-Fi vs BLE)
 - Integración de certificados Dilithium en el handshake TLS
